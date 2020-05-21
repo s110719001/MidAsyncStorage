@@ -34,12 +34,12 @@ const Home = () => {
                 </View>
                 <View style={{width:254,borderColor:'#32271F',opacity:0.25,borderWidth:1,marginTop:-465,alignSelf:'center'}}></View>
                 
-                    <View style={{width:343,height:31,marginTop:-88,alignSelf:'center',backgroundColor:'#EFEACC',borderRadius:7,borderColor:'#EFEACC',borderEndWidth:1.5}}>
+                    <View style={{width:348,height:31,marginTop:-88,alignSelf:'center',backgroundColor:'#EFEACC',borderRadius:7,borderColor:'#EFEACC',borderEndWidth:1.5,borderStartWidth:1.5}}>
                         <SegmentControl/>
                     </View>
 
-                <View style={{width:1,height:16,backgroundColor:'#8E8E93',position:'absolute',left:262.5,top:134,opacity:0.5}}></View>
-                <View style={{width:1,height:16,backgroundColor:'#8E8E93',position:'absolute',left:147.5,top:134,opacity:0.5}}></View>
+                <View style={{width:1,height:16,backgroundColor:'#8E8E93',position:'absolute',left:263,top:128,opacity:0.5}}></View>
+                <View style={{width:1,height:16,backgroundColor:'#8E8E93',position:'absolute',left:149,top:128,opacity:0.5}}></View>
                
             </View>
             
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#1A561B',
-        height:641,
+        height:800,
     },
     title:{
         fontSize:17,
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
         fontWeight:"bold"
     },
     index:{
-        height:641,
+        height:800,
         backgroundColor: '#F9F7E8',
         marginTop:13,
         borderRadius:40,

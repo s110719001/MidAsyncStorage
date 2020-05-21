@@ -7,7 +7,7 @@ const QRcode = ({navigation}) => {
                 <TouchableOpacity onPress={()=> navigation.navigate('ChooseScreen')}>
                   <Image
                     source={require('../assets/img/qrcode.png')}
-                    style={{height:789,width:412,marginTop:39}}
+                    style={{height:850,width:414,marginTop:39}}
                   />
                 </TouchableOpacity>
         </View>

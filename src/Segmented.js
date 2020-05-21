@@ -55,7 +55,7 @@ class SegmentControl extends Component {
           activeTabTextStyle={{fontWeight:'bold',fontSize:14,color:'#32271F'}}
           activeTabStyle={{backgroundColor:'#FEFDFB'}}
           tabStyle={{borderRadius:7,borderWidth:0,height:28,backgroundColor:'#EFEACC',opacity:0.8}}
-          tabsContainerStyle={{paddingTop:2}}
+          tabsContainerStyle={{paddingTop:1.5}}
         />
         {
             <View>
